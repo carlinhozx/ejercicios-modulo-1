@@ -1,0 +1,8 @@
+.tarjeta{
+    background-color: bisque;
+    border: 2px solid darkred;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    border-radius: 25%;
+    text-align: center;
+}

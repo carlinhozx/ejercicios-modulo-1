@@ -1,0 +1,25 @@
+li{
+    display: inline-block;
+    height: 30px;
+    width: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 30px;
+    width: auto;
+}
+li{
+    background-color: #570404;
+    color: wheat;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: #630707;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
