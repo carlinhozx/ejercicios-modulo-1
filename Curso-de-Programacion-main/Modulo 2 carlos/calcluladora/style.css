@@ -23,6 +23,8 @@ body {
 .container {
     width: 100%;
     max-width: 375px; /* Ancho máximo para desktop */
+    border: black 1rem solid;
+    
 }
 
 /* Pantalla de la calculadora */
@@ -48,6 +50,8 @@ body {
     width: 100%;
 }
 
+
+
 /* Estilos base de los botones */
 button {
     height: 50px;
@@ -61,6 +65,8 @@ button {
     font-weight: bold;
     border-radius: 5px; /* Bordes redondeados */
 }
+
+
 
 /* Botones especiales (Clear, Delete, Igual) */
 .reset_clear {
