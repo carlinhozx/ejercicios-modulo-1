@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport para responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Formulario para la pantalla de la calculadora -->
+        <form name="calc">
+            <!-- Input de solo lectura para mostrar resultados -->
+            <input type="text" name="text" id="screen" readonly>
+        </form>
+        <!-- Contenedor de botones -->
+        <div class="btns">
+            <!-- Botones científicos con atributos data-fn para funciones -->
+            <button data-fn="sin">sin</button>
+            <button data-fn="cos">cos</button>
+            <button data-fn="tan">tan</button>
+            <button data-fn="log">log</button>
+            
+            <!-- Botones para potencias y raíces -->
+            <button data-fn="pow2">x<sup>2</sup></button>
+            <button data-fn="pow3">x<sup>3</sup></button>
+            <button data-fn="sqrt">&radic;</button>
+            <button data-fn="cbrt">&#8731;</button>
+
+            <!-- Botones numéricos (1-9, 0) y operadores básicos -->
+            <button data-val="1">1</button>
+            <button data-val="2">2</button>
+            <button data-val="3">3</button>
+            <button data-val="4">4</button>
+
+            <button data-val="5">5</button>
+            <button data-val="6">6</button>
+            <button data-val="7">7</button>
+            <button data-val="8">8</button>
+
+            <button data-val="9">9</button>
+            <button data-val="0">0</button>
+            <button data-val=".">.</button>
+            <button data-val="*">*</button>
+
+            <button data-val="+">+</button>
+            <button data-val="-">-</button>
+            <button data-val="/">/</button>
+            <button data-val="%">%</button>
+
+            <!-- Botones especiales (Clear, Delete, Igual) -->
+            <button data-fn="clear" class="reset_clear">C</button>
+            <button data-fn="del" class="reset_del">DEL</button>
+            <button data-fn="equal" class="equal">=</button>
+        </div>
+    </div>
+    <!-- Script principal -->
+    <script src="main.js"></script>
+</body>
+</html>
