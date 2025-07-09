@@ -183,7 +183,7 @@ int main() {
     for (int i = 0; i < NUM_COMIDAS; ++i) {
         std::string comida;
         std::cout << "Comida " << i + 1 << ": ";
-        std::cout << "Comida " << i + 1 << ": ";
+        
         std::getline(std::cin >> std::ws, comida);
         comidasFavoritas.push_back(comida);
     }
