@@ -1,0 +1,51 @@
+ <section class="contact section" id="contact">
+        <div class="_container container grid">
+            <div class="contact_content">
+            <h2 class="section_title">hire me</h2>
+            
+            <p class="contact_description">
+                Estoy Disponible para Trabajo Freelance, puedes contactarte conmigo via telefono: <a href="tel:+58414-6548400">0414-6548400</a> o correo: <a href="mailto:Carlos05villero@gmail.com">Carlos05villero@gmail.com</a>
+            </p>
+            <form action="" class="contact_form" id="contact_form">
+                <div class="contact_form-input">
+                    <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="tu nombre" 
+                    class="contact_input"
+                    id="Contact_name">
+                </div>
+                 <div class="contact_form-input">
+                    <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="tu correo" 
+                    class="contact_input"
+                    id="Contact-email">
+                </div>
+                <div class="contact_form-input">
+                    <input 
+                    type="text" 
+                    name="subject" 
+                    placeholder="El tema a tratar" 
+                    class="contact_input"
+                    id="Contact-subject">
+                </div>
+                 <div class="contact_form-input">
+                    <textarea 
+                        name="message" 
+                        id="contact-message" 
+                        class="contact_input textarea" 
+                        placeholder="Escribe tu mensaje aquí..."
+                    ></textarea>
+                </div>
+               
+                <input type="submit" value="Submit" class="btn">
+                
+                <p class="error_message"id="error-message">Error</p>
+            </form>
+            </div>
+            <img src="anexos/img/contact.jpg" alt="" class="contact_img">
+        </div>
+      </section>
+    </main>
