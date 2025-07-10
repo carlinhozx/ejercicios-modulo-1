@@ -6,10 +6,10 @@
 :root{
     --header-height:6rem;
     /*colores*/
-    --first-color:hsl(350,98%,64%);
-    --title-color:hsl(0,0%,100%);
+    --first-color:#0353a4;
+    --title-color:00a8e8;
     --text-color: hsl(0,0%,77%);
-    --body-color: hsl(0,0%,6%);
+    --body-color:#33415c;
     --container-color: hsl(0,0%,10%);
     --border-color: hsl(0,0%,100%, 0.2);
 
